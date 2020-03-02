@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: checkout
-      uses: actions/checkout@src
+      uses: actions/checkout@master
     - name: build & deploy
       uses: JamesIves/github-pages-deploy-action@master 
       env:
