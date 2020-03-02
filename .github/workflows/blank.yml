@@ -3,7 +3,7 @@ name: vue build & deploy ci
 on: 
   push:
     branches: 
-      - src
+      - master
 
 
 jobs:
