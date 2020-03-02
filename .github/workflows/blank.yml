@@ -16,7 +16,6 @@ jobs:
       uses: actions/checkout@src
     - name: build & deploy
       uses: JamesIves/github-pages-deploy-action@master 
-    - name: Run a multi-line script
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: master
