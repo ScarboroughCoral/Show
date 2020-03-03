@@ -3,7 +3,6 @@
     <v-app-bar
       app
       color="grey lighten-1"
-      flat
       inverted-scroll
       dark
     >
@@ -17,7 +16,7 @@
           width="40"
         />
 
-        <h1>二哈妙妙屋</h1>
+        <h1 class="d-none d-sm-flex">二哈妙妙屋</h1>
       </div>
 
       <v-spacer></v-spacer>
