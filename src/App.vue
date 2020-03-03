@@ -2,7 +2,9 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="grey lighten-1"
+      flat
+      inverted-scroll
       dark
     >
       <div class="d-flex align-center">
@@ -10,48 +12,41 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="@/assets/logo.png"
           transition="scale-transition"
           width="40"
         />
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <h1>二哈妙妙屋</h1>
       </div>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/ScarboroughCoral/Show"
         target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span class="mr-2">GitHub</span>
+        <v-icon>mdi-dog</v-icon>
       </v-btn>
+      <!-- <template v-slot:extension>
+        <v-tabs align-with-title>
+          <v-tab>Tab 1</v-tab>
+          <v-tab>Tab 2</v-tab>
+          <v-tab>Tab 3</v-tab>
+        </v-tabs>
+      </template> -->
     </v-app-bar>
-
-    <v-content>
-      <HelloWorld/>
-    </v-content>
+    <router-view></router-view>
+ 
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld,
-  },
 
   data: () => ({
     //
