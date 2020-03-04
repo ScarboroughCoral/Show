@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <Banner/>
+    <TreeMenu/>
     <v-parallax
       height="1000"
       src="@/assets/parallax.jpg">
     </v-parallax>
-    <TreeMenu/>
   </div>
 </template>
 
