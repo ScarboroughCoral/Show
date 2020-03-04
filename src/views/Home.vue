@@ -1,8 +1,9 @@
 <template>
   <div class="home">
     <Banner/>
-    <v-parallax 
-      src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+    <v-parallax
+      height="1000"
+      src="@/assets/parallax.jpg">
     </v-parallax>
     <TreeMenu/>
   </div>
