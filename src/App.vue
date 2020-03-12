@@ -11,7 +11,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="@/assets/logo.png"
+          src="https://file.moetu.org/images/2020/03/12/logof20aa56253a79f08.png"
           transition="scale-transition"
           width="40"
         />

@@ -1,4 +1,3 @@
-import blogImg from '@/assets/cards/1.jpg';
 
 export default [
   {
@@ -6,7 +5,7 @@ export default [
     desc:'用于记录一些开发学习笔记和实验记录。',
     isRoute:false,
     path:'http://blog.scarboroughcoral.top/',
-    img:blogImg
+    img:'https://file.moetu.org/images/2020/03/12/154a1c3b35237fcf0.jpg'
   },
   {
     title:'刷题笔记',

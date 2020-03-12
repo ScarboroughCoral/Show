@@ -4,7 +4,7 @@
     <TreeMenu/>
     <v-parallax
       height="1000"
-      src="@/assets/parallax.jpg">
+      src="https://file.moetu.org/images/2020/03/12/parallax278dedc1043d0c28.jpg">
     </v-parallax>
   </div>
 </template>

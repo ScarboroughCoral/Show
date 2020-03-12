@@ -26,15 +26,12 @@
 </template>
 
 <script>
-import Dou from '@/assets/slides/dou.jpg';
-import ZongHeng from '@/assets/slides/genie.jpg';
-import MingZuo from '@/assets/slides/mingzuo.jpg';
   export default {
     data () {
       return {
         items: [
           {
-            src: Dou,
+            src: 'https://file.moetu.org/images/2020/03/12/dou984b9e718353ff90.jpg',
             desc:'纵使我身形俱灭，也定将恶鬼斩杀',
             color:"green--text text--light-2"
           },
@@ -43,11 +40,11 @@ import MingZuo from '@/assets/slides/mingzuo.jpg';
             desc:'用耳去听，用心去看。——G.S.D',
           },
           {
-            src: ZongHeng,
+            src: 'https://file.moetu.org/images/2020/03/12/genie9ff427c7abd160ac.jpg',
             desc:'怒而诸侯俱，安居而天下熄。——唯我纵横'
           },
           {
-            src: MingZuo,
+            src: 'https://file.moetu.org/images/2020/03/12/mingzuo085dbcfbcd136672.jpg',
             desc: '你毁了我世界的唯一，我便毁了你们唯一的世界。'
           },
         ],
