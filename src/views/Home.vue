@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 // @ is an alias to /src
 import Banner from '@/components/Banner.vue'
 import TreeMenu from '@/components/TreeMenu.vue';

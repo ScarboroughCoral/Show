@@ -38,8 +38,8 @@
   </v-responsive>
 </template>
 
-<script>
-import items from '@/config/menu.js';
+<script lang="ts">
+import items from '@/config/menu.ts';
 
 export default {
   data: () => ({
